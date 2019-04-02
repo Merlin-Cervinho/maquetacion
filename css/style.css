@@ -196,19 +196,19 @@ p{
 }
 
 /* Sobre nosotros */
-.choose-us-wraper{
+.choose-us-wraper {
     padding-top: 50px;
 }
 
-.about-iphone img{
+.about-iphone img {
     margin-top: 8px;
 }
 
-.choose-us-title{
+.choose-us-title {
     padding-bottom: 50px;
 }
 
-.choose-us-title h2{
+.choose-us-title h2 {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 30px;
@@ -216,7 +216,7 @@ p{
     position: relative;
 }
 
-.choose-us-title h2:after{
+.choose-us-title h2:after {
     content: "";
     position: absolute;
     bottom: -12px;
@@ -224,47 +224,46 @@ p{
     width: 70px;
     height: 1px;
     background-color: #129CF3;
-    /* margin-left: -30px; */
 }
 
-.choose-us-title p{
+.choose-us-title p {
     margin-top: 40px;
     font-size: 19px;
     line-height: 24px;
 }
 
-.choose-us-item{
+.choose-us-item {
     position: relative;
     padding-bottom: 4px;
     padding-left: 80px;
 }
 
-.choose-us-item div{
+.choose-us-item div {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.choose-us-item div i{
+.choose-us-item div i {
     font-size: 55px;
     color: #129CF3;
     transition: all 1s;
     -webkit-transition: all 1s;
-    -moz-transition: all 1s;
     -o-transition: all 1s;
+    -moz-transition: all 1s;
 }
 
-.choose-us-item h3{
+.choose-us-item h3 {
     color: #343434;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 800;
 }
 
-.choose-us-item p{
+.choose-us-item p {
     color: #727272;
     font-size: 15px;
-}
+} 
 
 /* Testimonios */
 
@@ -431,8 +430,8 @@ p{
 }
 
 .btn-purchase-now:hover{
-    background-color: #127401;
-    border-color: #316090;
+    background-color: #1274B1;
+    border-color: #316B90;
 }
 
 /* Contador */
@@ -478,6 +477,10 @@ p{
 }
 
 /* Descarga ahora */
+.download-now img{
+    width: 100%;
+}
+
 .download-now{
     width: 100%;
 }

@@ -90,4 +90,35 @@ $(document).ready(function () {
     });
 });
 
-// .navbar-nav li a[href='#ABOUT']
+$(document).ready(function () {
+    'use strict';
+
+    setInterval(function () {
+        'use strict';
+
+        var windowHeight = $(window).height();
+
+        var containerHeight = $(".header-container").height();
+
+        var padTop = windowHeight - containerHeight;
+
+        $(".header-container").css({
+            'padding-top': Math.round(padTop / 2) + 'px',
+            'padding-bottom': Math.round(padTop / 2) + 'px',
+        });
+    }, 10)
+});
+
+// BX slider
+$(document).ready(function () {
+
+    $('.bxslider').bxSlider({
+
+        slideWidth: 292.5,
+        auto: true,
+        minSlides: 1,
+        maxSlides: 3,
+        slideMargin: 50
+    });
+
+});
