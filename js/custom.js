@@ -56,3 +56,38 @@ $(document).ready(function () {
     });
 
 });
+
+// Elemento de menú activo al hacer clic
+$(document).ready(function () {
+    'use strict';
+    ('.navbar-nav li a').click(function () {
+        'use strict;'
+        $('.navbar-nav li a').parent().removeClass("active");
+
+        $(this).parent().addClass("active");
+    });
+});
+
+// Resaltar el elemento del menú en el desplazamiento
+$(document).ready(function () {
+    'use strict';
+
+    $(window).scroll(function () {
+        'use strict';
+        $("section").each(function () {
+            'use strict';
+            var bb = $(this).attr("id"); //Id de referencia a las del menú
+            var hei = $(this).outerHeight();
+            var grttop = $(this).offset().top - 70;
+
+            if ($(window).scrollTop() > grttop && $(window).scrollTop() < grttop + hei) {
+                $(".navbar-nav li a[href='#".bb + "']").parent().addClass("active");
+            }
+            else {
+                $(".navbar-nav li a[href='#".bb + "']").parent().removeClass("active");
+            }
+        });
+    });
+});
+
+// .navbar-nav li a[href='#ABOUT']
