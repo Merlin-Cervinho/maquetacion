@@ -16,7 +16,6 @@ p{
 }
 
 /* CSS genérico */
-
 .section-title{
     padding-top: 90px;
     padding-bottom: 50px;
@@ -76,7 +75,7 @@ p{
 }
 
 .navbar-default .navbar-nav > li > a{
-    color: #858585;
+    color: #B5B5B5;
 }
 
 .navbar-brand{
@@ -96,8 +95,8 @@ p{
     background-color: transparent;
     color: #129CF3;
 }
-/* Cabecera */
 
+/* Cabecera */
 .header{
     background-image: url("../images/header-bg.jpg");
     background-attachment: fixed;
@@ -193,6 +192,7 @@ p{
 
 .header-iphone img{
     width: 100%;
+    margin-top: 20px;
 }
 
 /* Sobre nosotros */
@@ -266,7 +266,6 @@ p{
 } 
 
 /* Testimonios */
-
 .testimonial{
     background-image: url("../images/testimonial-bg.jpg");
     background-attachment: fixed;
@@ -372,6 +371,7 @@ p{
     padding-left: 90px;
     margin-bottom: 65px;
     margin-top: 35px;
+    text-align: left;
 }
 
 .right-feature-item-icon{
@@ -382,7 +382,7 @@ p{
     color: #129CF3;
     width: 90px;
     height: 90px;
-    text-align: left;
+    text-align: center;
 }
 
 .right-feature-item h3{
@@ -448,7 +448,7 @@ p{
 
 .counter-overlay{
     padding-top: 120px;
-    padding-bottom: 120;
+    padding-bottom: 120px;
     background: rgba(0, 0, 0, .4);
 }
 
@@ -481,10 +481,7 @@ p{
     width: 100%;
 }
 
-.download-now{
-    width: 100%;
-}
-
+/* Disponible en */
 .available-on{
     background-color: #1a1a1a;
     margin-top: -8px;
@@ -511,7 +508,6 @@ p{
 
 .available-on-item{
     text-align: center;
-    border-left: 1px solid #129CF3;
     min-height: 230px;
     padding-bottom: 15px;
     position: relative;
@@ -601,6 +597,7 @@ p{
     text-transform: uppercase;
     font-size: 18px;
     color: #129CF3;
+    outline: 0px !important;
     transition: all 1s;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -640,16 +637,16 @@ p{
     height: 45px;
     line-height: 49px;
     color: #9d9d9d;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
 }
 
 .social-icons ul li a:hover{
     background-color: #129CF3;
     border: 1px solid #129CF3;
     color: #fff;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
 }
 
 .social-icons ul li a i{

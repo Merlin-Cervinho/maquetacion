@@ -1,9 +1,10 @@
 // Mostrar y ocultar el menú
-
 $(document).ready(function () {
     'use strict';
+
     $(window).scroll(function () {
         'use strict';
+
         if ($(window).scrollTop() < 80) {
             $('.navbar').css({
                 'margin-top': '-100px',
@@ -22,7 +23,7 @@ $(document).ready(function () {
 
             $('.navbar-default').css({
                 'background-color': 'rgba(255, 255, 255, 1)',
-                'border-color': '#fff'
+                'border-color': '#444'
             });
 
             $('.navbar-brand img').css({
@@ -39,7 +40,6 @@ $(document).ready(function () {
 
 // Añadir desplazamiento sueave
 $(document).ready(function () {
-
     'use strict';
 
     $('.nav-item, #scroll-to-top').click(function () {
@@ -54,17 +54,18 @@ $(document).ready(function () {
             }
         }
     });
-
 });
 
 // Elemento de menú activo al hacer clic
 $(document).ready(function () {
     'use strict';
-    ('.navbar-nav li a').click(function () {
-        'use strict;'
-        $('.navbar-nav li a').parent().removeClass("active");
 
+    $('.navbar-nav li a').click(function () {
+        'use strict';
+
+        $('.navbar-nav li a').parent().removeClass("active");
         $(this).parent().addClass("active");
+
     });
 });
 
@@ -74,22 +75,27 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         'use strict';
+
         $("section").each(function () {
             'use strict';
-            var bb = $(this).attr("id"); //Id de referencia a las del menú
+
+            var bb = $(this).attr("id");  // ABOUT, CONTACT, DOWNLOAD
             var hei = $(this).outerHeight();
             var grttop = $(this).offset().top - 70;
 
             if ($(window).scrollTop() > grttop && $(window).scrollTop() < grttop + hei) {
-                $(".navbar-nav li a[href='#".bb + "']").parent().addClass("active");
-            }
-            else {
-                $(".navbar-nav li a[href='#".bb + "']").parent().removeClass("active");
+
+                $(".navbar-nav li a[href='#" + bb + "']").parent().addClass("active");
+
+            } else {
+                $(".navbar-nav li a[href='#" + bb + "']").parent().removeClass("active");
+
             }
         });
     });
 });
 
+// add auto padding to header
 $(document).ready(function () {
     'use strict';
 
@@ -104,7 +110,7 @@ $(document).ready(function () {
 
         $(".header-container").css({
             'padding-top': Math.round(padTop / 2) + 'px',
-            'padding-bottom': Math.round(padTop / 2) + 'px',
+            'padding-bottom': Math.round(padTop / 2) + 'px'
         });
     }, 10)
 });
@@ -120,5 +126,22 @@ $(document).ready(function () {
         maxSlides: 3,
         slideMargin: 50
     });
+
+});
+
+// Añadir contador
+$(document).ready(function () {
+
+    $('.counter-num').counterUp({
+        delay: 10,
+        time: 2000
+    });
+});
+
+// Añadir animación / inicialización del WOW
+$(document).ready(function () {
+    'use strict';
+
+    new WOW().init();
 
 });

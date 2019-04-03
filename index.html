@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="zxx" dir="ltr">
 
 <head>
+    <title>Maimo</title>
 
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Maimo</title>
+    <!-- SEO -->
+    <meta name="description" content="Simple, claro, página web responsiva hecha con html5, CSS3, JS, JQuery y Boostrap">
+    <meta name="keywords" content="web, design, html, css, html5, css3, javascript, jquery, bootstrap, development">
 
     <!-- Icono -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
@@ -17,6 +20,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"> -->
+
+    <!-- Animaciones -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
 
     <!-- Google fonts -->
     <link
@@ -29,13 +35,15 @@
     <!-- BX slider CSS -->
     <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
 
+    <!-- Responsividad -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 </head>
 
 <body>
 
     <!-- Cabecera -->
-    <header class="header">
+    <header class="header" id="HOME">
 
         <!-- Navegación -->
 
@@ -48,7 +56,7 @@
 
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#maimo-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Metiferoumn</span>
+                        <span class="sr-only">Metiferoum</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -113,10 +121,10 @@
 
                         </div>
 
-                        <div>
+                        <div class="header-btns">
                             <!-- Botones de la cabezara -->
-                            <a href="#" class="btn btn-download">Yirjrfep</a>
-                            <a href="#" class="btn btn-tour">Erip am pijuppoyu
+                            <a href="#" class="btn btn-download wow fadeInLeft">Yirjrfep</a>
+                            <a href="#" class="btn btn-tour wow fadeInRight">Erip am pijuppoyu
                                 <i class="fa fa-angle-down"></i>
                             </a>
 
@@ -263,7 +271,7 @@
 
                 <div class="row">
 
-                    <div class="col-ñmd-12">
+                    <div class="col-md-12 wow bounceInDown">
 
                         <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
 
@@ -352,11 +360,13 @@
 
                 <div class="col-md-10 col-md-offset-1">
 
-                    <div class="section-title">
+                    <div class="section-title wow fadeIn" data-wow-duration="1s">
+
                         <h2> Jepejsiporsojer </h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam deserunt sint quas,
                             consectetur voluptas commodi rerum, praesentium, sequi ea fuga impedit. Labore vel nisi nemo
                             dolore facere architecto dolorem.</p>
+
                     </div>
 
                 </div>
@@ -372,97 +382,121 @@
                 <div class="row">
 
                     <!-- Lado izquierdo -->
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
 
                         <!-- Icono del item izquierdo -->
                         <div class="left-feature-item">
+
                             <!-- Icono -->
                             <div class="left-feature-item-icon">
                                 <i class="fa fa-desktop"></i>
                             </div>
+
                             <!-- Título y descripción -->
                             <!-- Lista para la retina -->
                             <h3> Korse ~epe ke pisome </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tempora reiciendis, est
                                 non veniam doloremque consectetur nostrum ab deserunt corporis explicabo ad voluptates
                                 ducimus et voluptatum quaerat obcaecati officia ea.</p>
+
                         </div>
 
                         <div class="left-feature-item">
+
                             <!-- Icono -->
                             <div class="left-feature-item-icon">
                                 <i class="fa fa-mobile"></i>
                             </div>
+
                             <!-- Título y descripción -->
                             <!-- Lista para móviles -->
                             <h3> Korse ~epe ik lutok </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tempora reiciendis, est
                                 non veniam doloremque consectetur nostrum ab deserunt corporis explicabo ad voluptates
                                 ducimus et voluptatum quaerat obcaecati officia ea.</p>
+
                         </div>
 
                         <div class="left-feature-item">
+
                             <!-- Icono -->
                             <div class="left-feature-item-icon">
                                 <i class="fa fa-eye"></i>
                             </div>
+
                             <!-- Título y descripción -->
                             <!-- Diseño fácil -->
                             <h3> Yorinu derok </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tempora reiciendis, est
                                 non veniam doloremque consectetur nostrum ab deserunt corporis explicabo ad voluptates
                                 ducimus et voluptatum quaerat obcaecati officia ea.</p>
+
                         </div>
+
                     </div>
 
                     <!-- Imagen central -->
                     <div class="col-md-4">
+
                         <div class="feature-iphone">
-                            <img src="images/iphone-02.png" alt="feature iphone">
+
+                            <img class="wow bounceIn img-responsive" data-wow-duration="1s" src="images/iphone-02.png"
+                                alt="feature iphone">
+
                         </div>
+
                     </div>
 
                     <!-- Lado derecho -->
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
 
                         <!-- Icono del item Derecho -->
                         <div class="right-feature-item">
+
                             <!-- Icono -->
                             <div class="right-feature-item-icon">
                                 <i class="fa fa-certificate"></i>
                             </div>
+
                             <!-- Título y descripción -->
                             <!-- Solución certificada -->
                             <h3> Rukaroum ripsodoreye </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tempora reiciendis, est
                                 non veniam doloremque consectetur nostrum ab deserunt corporis explicabo ad voluptates
                                 ducimus et voluptatum quaerat obcaecati officia ea.</p>
+
                         </div>
 
                         <div class="right-feature-item">
+
                             <!-- Icono -->
                             <div class="right-feature-item-icon">
                                 <i class="fa fa-rss"></i>
                             </div>
+
                             <!-- Título y descripción -->
                             <!-- Alimentación constante -->
                             <h3> Ekolimseroum jumrsemsi </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tempora reiciendis, est
                                 non veniam doloremque consectetur nostrum ab deserunt corporis explicabo ad voluptates
                                 ducimus et voluptatum quaerat obcaecati officia ea.</p>
+
                         </div>
 
                         <div class="right-feature-item">
+
                             <!-- Icono -->
                             <div class="right-feature-item-icon">
                                 <i class="fa fa-database"></i>
                             </div>
+
                             <!-- Título y descripción -->
                             <!-- Datos seguros -->
                             <h3> Yesur rifapur </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tempora reiciendis, est
                                 non veniam doloremque consectetur nostrum ab deserunt corporis explicabo ad voluptates
                                 ducimus et voluptatum quaerat obcaecati officia ea.</p>
+
                         </div>
 
                     </div>
@@ -480,7 +514,7 @@
 
         <div class="container">
 
-            <div class="row">
+            <div class="row wow fadeInRight" data-wow-duration="1s">
 
                 <div class="col-md-9">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem incidunt, atque porro laborum
@@ -532,14 +566,17 @@
 
                         <div class="item">
                             <img src="images/screen-01.png" alt="screen">
+
                         </div>
 
                         <div class="item">
                             <img src="images/screen-02.png" alt="screen">
+
                         </div>
 
                         <div class="item">
                             <img src="images/screen-03.png" alt="screen">
+
                         </div>
 
                         <div class="item">
@@ -561,7 +598,7 @@
 
         <div class="counter-overlay">
 
-            <div class="container">
+            <div class="container wow bounceInLeft" data-wow-duration="1s">
 
                 <div class="row text-center">
 
@@ -570,7 +607,7 @@
                         <div class="counter-item">
 
                             <div><i class="fa fa-cloud-download"></i></div>
-                            <h2><span class="counter-num"> 1500</span><span>+</span></h2>
+                            <h2><span class="counter-num"> 1500 </span><span>+</span></h2>
                             <p>Yirjepfer</p>
                             <!-- Descarga -->
 
@@ -583,7 +620,7 @@
                         <div class="counter-item">
 
                             <div><i class="fa fa-gift"></i></div>
-                            <h2><span class="counter-num"> 120</span><span>+</span></h2>
+                            <h2><span class="counter-num"> 120 </span><span>+</span></h2>
                             <p>~pilour</p>
                             <!-- Premios -->
 
@@ -596,7 +633,7 @@
                         <div class="counter-item">
 
                             <div><i class="fa fa-heart-o"></i></div>
-                            <h2><span class="counter-num"> 2063</span><span>+</span></h2>
+                            <h2><span class="counter-num"> 2063 </span><span>+</span></h2>
                             <p>Li farse</p>
                             <!-- Me gusta -->
 
@@ -609,7 +646,7 @@
                         <div class="counter-item">
 
                             <div><i class="fa fa-check"></i></div>
-                            <h2><span class="counter-num"> 1629</span><span>+</span></h2>
+                            <h2><span class="counter-num"> 1629 </span><span>+</span></h2>
                             <p> Pijulimyejoumir </p>
                             <!-- Recomendaciones -->
 
@@ -653,9 +690,9 @@
 
             <div class="row">
 
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-2 wow bounceInUp" data-wow-duration="2s">
 
-                    <img src="images/download-screen.png" alt="download screen">
+                    <img class="img-responsive" src="images/download-screen.png" alt="download screen">
 
                 </div>
 
@@ -668,7 +705,7 @@
     <!-- Disponble en -->
     <section class="available-on">
 
-        <div class="container">
+        <div class="container wow bounceInRight" data-wow-duration="1s">
 
             <div class="row">
 
@@ -676,12 +713,9 @@
 
                     <div class="available-title">
 
-                        <!-- Disponible en -->
-                        <h2> Yor~umotki im</h2>
-
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae atque, amet delectus
-                            voluptatum sed laborum natus, animi minima dicta perferendis dignissimos neque consequuntur
-                            eaque recusandae ea? Assumenda magni maiores beatae.</p>
+                        <h2> Available On </h2>
+                        <p>Vestibulum congue eros ac neque dignissim, vel imperdiet neque consectetur. Maecenas
+                            condimentum cursus maximus. Praesent eu diam efficitur</p>
 
                     </div>
 
@@ -697,10 +731,28 @@
 
                                 <div class="available-on-item">
 
-                                    <i class="f fa-apple"></i>
+                                    <i class="fa fa-apple"></i>
                                     <div class="available-on-inner">
 
-                                        <h2>IOS</h2>
+                                        <h2> iOS</h2>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </a>
+
+                        <a href="#">
+
+                            <div class="col-md-4 no-padding">
+                                <div class="available-on-item">
+
+                                    <i class="fa fa-android"></i>
+                                    <div class="available-on-inner">
+
+                                        <h2> ANDROID</h2>
 
                                     </div>
 
@@ -716,29 +768,10 @@
 
                                 <div class="available-on-item">
 
-                                    <i class="f fa-android"></i>
+                                    <i class="fa fa-windows"></i>
                                     <div class="available-on-inner">
 
-                                        <h2>Android</h2>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                        <a href="#">
-
-                            <div class="col-md-4 no-padding">
-
-                                <div class="available-on-item">
-
-                                    <i class="f fa-windows"></i>
-                                    <div class="available-on-inner">
-
-                                        <h2>Windows</h2>
+                                        <h2> WINDOWS</h2>
 
                                     </div>
 
@@ -761,7 +794,8 @@
     <!-- Contáctanos -->
     <section class="contact-us" id="CONTACT">
 
-        <div class="container">
+        <div class="container wow bounceIn">
+
             <div class="row">
 
                 <div class="col-md-10 col-md-offset-1">
@@ -781,7 +815,7 @@
 
         </div>
 
-        <div class="contact-us-form">
+        <div class="contact-us-form wow bounceIn">
 
             <div class="container">
 
@@ -820,7 +854,7 @@
 
             <div class="row">
 
-                <div class="col-md-12">
+                <div class="col-md-12 wow bounceInLeft">
 
                     <div class="social-icons">
 
@@ -858,7 +892,7 @@
                 <div class="col-md-6">
 
                     <div class="scroll-top">
-                        <a href="#"><i class="fa fa-angle-up"></i></a>
+                        <a href="#HOME" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
                     </div>
 
                 </div>
@@ -873,8 +907,15 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-        <!-- Bx Slider JS -->
-        <script src="js/jquery.bxslider.min.js"></script>
+    <!-- Bx Slider JS -->
+    <script src="js/jquery.bxslider.min.js"></script>
+
+    <!-- Add JS counter lib -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- Añadir WOW js lib -->
+    <script src="js/wow.min.js"></script>
 
     <!-- JS Personalizado -->
     <script src="js/custom.js"></script>
