@@ -245,7 +245,7 @@ p{
 }
 
 .choose-us-item div i {
-    font-size: 55px;
+    font-size: 40px;
     color: #129CF3;
     transition: all 1s;
     -webkit-transition: all 1s;
@@ -658,7 +658,7 @@ p{
     background-color: #1a1a1a;
     padding-bottom: 35px;
     padding-top: 35px;
-    border-bottom: 3px solid #129CF3;
+    /* border-bottom: 3px solid #129CF3; */
 }
 
 #copyrigth{
@@ -666,9 +666,9 @@ p{
 }
 
 #copyrigth p{
-    color: #8c8b8a;
+    color: #F7F9F9;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 10px;
     text-transform: uppercase;
 }
 
