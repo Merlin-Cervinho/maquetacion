@@ -1,2 +1,3 @@
 # Maquetacion
-Prueba de maquetación para Coco.
+Pruebas de maquetación.
+Estilos, efectos y colores.
